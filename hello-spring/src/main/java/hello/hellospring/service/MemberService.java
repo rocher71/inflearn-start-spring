@@ -9,12 +9,20 @@ import java.util.Optional;
 
 public class MemberService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    //아래 코드의 문제점 : 테스케이스와 아래 코드에서의 new MemoryMemberRepository()가 서로 다른 인스턴스임.
+//    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    //외부에서 넣어주도록 변경
+    //Dependency injection : MemberService 입장에서 보면 직접 만들지 않고 외부에서 MemberRepository를 넣어
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     /**
      * 회원 가입
      */
-    public long join(Member member){
+    public Long join(Member member){
         //동명이인(같은 이름) 중복 회원 안됨
         validateDuplicateMember(member); //동명이인 회원 검증
         memberRepository.save(member);
