@@ -3,10 +3,13 @@ package hello.hellospring.service;
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MemberService {
 
     //아래 코드의 문제점 : 테스케이스와 아래 코드에서의 new MemoryMemberRepository()가 서로 다른 인스턴스임.
@@ -15,6 +18,7 @@ public class MemberService {
 
     //외부에서 넣어주도록 변경
     //Dependency injection : MemberService 입장에서 보면 직접 만들지 않고 외부에서 MemberRepository를 넣어
+    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
