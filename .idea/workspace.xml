@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdeacf22-77ae-4b3c-a1bd-fe9533a21acf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/HelloSpringApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/java/hello/hellospring/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/main/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/HelloSpringApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="fdeacf22-77ae-4b3c-a1bd-fe9533a21acf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710752389512</updated>
       <workItem from="1710752391897" duration="681000" />
+      <workItem from="1714399598394" duration="76000" />
     </task>
     <servers />
   </component>
